@@ -11,6 +11,7 @@
 </head>
 <body>
   <header>
+    <button id="theme-toggle">Toggle Dark/Light Mode</button>
     <h1>🌿 EcoBuzz</h1>
     <p>Your daily dose of eco-friendly awareness!</p>
   </header>
@@ -47,6 +48,12 @@
       duration: 1000,
       once: true
     });
+    const toggleBtn = document.getElementById('theme-toggle');
+  
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
   </script>
+  
 </body>
 </html>
