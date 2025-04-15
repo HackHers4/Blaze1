@@ -160,5 +160,9 @@ body.light-mode {
       opacity: 1;
     }
   }
+body.dark-mode #theme-toggle {
+  display: none;
+}
+
   
   
